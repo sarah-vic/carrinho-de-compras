@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de compras</title>
+</head>
+<body>
+    <center>
+        <h1>Carrinho de compras </h1>
+
+        <script>
+            var usuario = prompt("Digite seu nome")
+
+            var preco1 = parseFloat(prompt("Preço item 1"))
+            var quantidade1 = parseInt(prompt("Quantos itens do item 1?"))
+            var total1 = (preco1*quantidade1)
+
+            var preco2 = parseFloat(prompt("Preço item 2"))
+            var quantidade2 =parseInt(prompt("Quantos itens do item 2?"))
+            var total2 = (preco2*quantidade2)
+
+            var preco3 = parseFloat(prompt("Preço item 3"))
+            var quantidade3 =parseInt(prompt("Quantos itens do item 3?"))
+            var total3 = (preco3*quantidade3)
+
+            var preco4 = parseFloat(prompt("Preço item 4"))
+            var quantidade4 = parseInt(prompt("Quantos itens do item 4?"))
+            var total4 = (preco4*quantidade4)
+
+            var totalpedido = (total1 + total2 + total3 + total4)
+
+            document.write("Nome: " + usuario)
+            document.write("<br>") 
+            
+            document.write("ITEM 1: " + "R$" + preco1)
+            document.write("<br>") 
+            document.write("Quantidade: " + quantidade1)
+            document.write("<br>") 
+
+            document.write("Valor total item 1:" + "R$" + total1)
+            document.write("<br>")
+        
+
+            document.write("ITEM 2: " + "R$" + preco2)
+            document.write("<br>") 
+            document.write("Quantidade: " + quantidade2)
+            document.write("<br>") 
+
+            
+            document.write("Valor total item 2:" + "R$" + total2)
+            document.write("<br>")
+
+
+            document.write("ITEM 3: " + "R$" + preco3)
+            document.write("<br>") 
+            document.write("Quantidade: " + quantidade3)
+            document.write("<br>") 
+
+
+            document.write("Valor total item 3:" + "R$" + total3)
+            document.write("<br>")
+
+
+            document.write("ITEM 4: " + "R$" + preco4)
+            document.write("<br>") 
+            document.write("Quantidade: " + quantidade4)
+            document.write("<br>") 
+
+            document.write("Valor total item 4: " + " R$ " + total4)
+            document.write("<br>")
+
+
+            document.write("TOTAL DA COMPRA:" + " R$ " + totalpedido)
+            
+            
+
+        </script>
+    </center>
+</body>
+</html>
